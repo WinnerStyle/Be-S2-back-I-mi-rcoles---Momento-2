@@ -1,0 +1,12 @@
+import java.util.List;
+
+public interface IOperaciones<T> {
+
+    void guardar(T objeto);
+
+    T buscar(int id);
+
+    boolean eliminar(int id);
+
+    List<T> listar();
+}
